@@ -19,6 +19,8 @@
         <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
         <RunAnalyzers>false</RunAnalyzers>
         <NoDefaultExcludes>true</NoDefaultExcludes>
+        
+        <RepositoryUrl>https://github.com/Neisvestney/Asp.React.Project.Templates</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
