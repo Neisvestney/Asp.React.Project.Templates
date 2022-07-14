@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>1.0</PackageVersion>
+        <PackageId>Asp.React.Project.Templates</PackageId>
+        <Title>Asp React Project Templates</Title>
+        <Authors>Neisvestney</Authors>
+        <Description>Template with Asp.net using WebApi and swagger, React using ts, vite, routers and auntification</Description>
+        <PackageTags>dotnet-new;templates;web;asp;react</PackageTags>
+
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <NoWarn>$(NoWarn);NU5128</NoWarn>
+        <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+        <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+        <RunAnalyzers>false</RunAnalyzers>
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Templates\Asp.React.Project.Template\Models\LoginModel.cs" />
+        <Compile Include="Templates\Asp.React.Project.Template\Models\RegisterModel.cs" />
+        <Compile Include="Templates\Asp.React.Project.Template\Models\Response.cs" />
+        <Content Include="Templates\**\*" Exclude="Templates\**\bin\**;Templates\**\obj\**;Templates\**\node_modules\**;Templates\**\dist\**" />
+        <Compile Remove="**\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Templates" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <TypeScriptCompile Include="Templates\Asp.React.Project.Template\ClientApp\src\components\OAuth.tsx" />
+      <TypeScriptCompile Include="Templates\Asp.React.Project.Template\ClientApp\vite.config.ts" />
+    </ItemGroup>
+
+</Project>

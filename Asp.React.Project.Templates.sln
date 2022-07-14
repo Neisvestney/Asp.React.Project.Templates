@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.React.Project.Templates", "Asp.React.Project.Templates\Asp.React.Project.Templates.csproj", "{E9140694-A47C-4C56-8659-946EE4CFA671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.React.Project.Template", "Asp.React.Project.Templates\Templates\Asp.React.Project.Template\Asp.React.Project.Template.csproj", "{7FBA2992-5415-4F16-B09C-336667E0F051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9140694-A47C-4C56-8659-946EE4CFA671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9140694-A47C-4C56-8659-946EE4CFA671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9140694-A47C-4C56-8659-946EE4CFA671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9140694-A47C-4C56-8659-946EE4CFA671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBA2992-5415-4F16-B09C-336667E0F051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBA2992-5415-4F16-B09C-336667E0F051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBA2992-5415-4F16-B09C-336667E0F051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBA2992-5415-4F16-B09C-336667E0F051}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
